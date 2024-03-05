@@ -32,6 +32,16 @@ git commit -m "add readme file"
 - cd github-foundation-exam-course
 ```
 
+> You need to generate a Personal Access Token(PAT) => https://github.com/settings/tokens/new
+- You will use the PAT as your password when you login
+- Give it access to contents for commits
+
+### SSH
+```ssh
+git clone git@github.com:aidinfk/Github-Examples.git
+cd Github-Examples
+```
+
 # Commits
 When we want to commit code we can write git commit which wil open up the commit edit message in the editor of choice.
 ```sh
